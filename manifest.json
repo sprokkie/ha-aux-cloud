@@ -1,0 +1,17 @@
+{
+  "domain": "aux_cloud",
+  "name": "AUX Cloud",
+  "codeowners": [],
+  "config_flow": true,
+  "documentation": "https://github.com/maeek/ha-aux-cloud",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/maeek/ha-aux-cloud/issues",
+  "loggers": [],
+  "requirements": [
+    "aiohttp",
+    "pycryptodome==3.23.0",
+    "broadlink>=0.19.0"
+  ],
+  "version": "1.0.10",
+  "zeroconf": []
+}
